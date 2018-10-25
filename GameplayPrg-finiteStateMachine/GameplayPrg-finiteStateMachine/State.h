@@ -1,3 +1,7 @@
+#ifndef STATE_H
+#define STATE_H
+
+
 #include "Animation.h"
 
 class State
@@ -16,3 +20,4 @@ public:
 		std::cout << "State::Climbing" << std::endl;
 	}
 };
+#endif STATE_H

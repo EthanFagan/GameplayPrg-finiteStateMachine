@@ -120,6 +120,8 @@
     <ClInclude Include="Idle.h" />
     <ClInclude Include="Jumping.h" />
     <ClInclude Include="State.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Walking.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />

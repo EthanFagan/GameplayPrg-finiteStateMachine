@@ -1,4 +1,6 @@
-#include "Animation.h"
+#ifndef IDLE_H
+#define IDLE_H
+
 #include "State.h"
 
 class Idle : public State
@@ -31,3 +33,4 @@ void Idle::climbing(Animation* a)
 	a->setCurrent(new Idle());
 	delete this;
 }
+#endif IDLE_H

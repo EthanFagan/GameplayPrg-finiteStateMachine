@@ -1,4 +1,8 @@
-#include "Animation.h"
+#ifndef CLIMBING_H
+#define CLIMBING_H
+
+
+
 #include "State.h"
 #include "Idle.h"
 
@@ -22,3 +26,4 @@ Climbing::Climbing()
 inline Climbing::~Climbing()
 {
 }
+#endif CLIMBING_H
